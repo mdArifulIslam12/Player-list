@@ -20,7 +20,7 @@ const playerId = (player) => {
         </div>
         <div class="col-lg-6">
             <h2>${player.strPlayer}</h2>
-            <p>${player.strDescriptionEN.slice(0,650)}</p>
+            <p>${player.strDescriptionEN.slice(0,1000)}</p>
         </div>
     `
     playerContainer.appendChild(div)
